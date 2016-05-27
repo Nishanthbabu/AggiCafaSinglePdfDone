@@ -1,0 +1,488 @@
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/whitebg"
+    android:layout_height="match_parent" >
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/textcolorcplor"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1. The hospital food has been as good as i expected."
+            android:id="@+id/textView" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/radiogroup1"
+                android:layout_height="wrap_content">
+                   <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Always"
+                    android:id="@+id/q1RadioalwaysID"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Usually"
+                    android:id="@+id/q1RadiousualyID"
+                    android:layout_height="wrap_content" />
+            
+                 <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Some Times"
+                    android:id="@+id/q1RadiosometimesID"
+                    android:layout_height="wrap_content" />
+
+                   <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Never"
+                    android:id="@+id/q1RadioneverID"
+                    android:layout_height="wrap_content" />
+              
+               
+                
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolorcplor"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="2. The staff who deliver my meals are neat and clean."
+                android:id="@+id/textw" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/radiogroup2"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Always"
+                    android:id="@+id/q2RadioalwaysID"
+                    android:layout_height="wrap_content" />
+                    
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Usually"
+                    android:id="@+id/q2RadiousualyID"
+                    android:layout_height="wrap_content" />
+            
+                 <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Some Times"
+                    android:id="@+id/q2RadiosometimesID"
+                    android:layout_height="wrap_content" />
+
+                   <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Never"
+                    android:id="@+id/q2RadioneverID"
+                    android:layout_height="wrap_content" />
+
+
+
+
+               
+                   
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolorcplor"
+                    android:layout_margin="5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="3. The meals taste  good."
+                    android:id="@+id/xtw" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:id="@+id/radiogroup3"
+                        android:layout_height="wrap_content">
+
+  <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Always"
+                    android:id="@+id/q3RadioalwaysID"
+                    android:layout_height="wrap_content" />
+                    
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Usually"
+                    android:id="@+id/q3RadiousualyID"
+                    android:layout_height="wrap_content" />
+            
+                 <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Some Times"
+                    android:id="@+id/q3RadiosometimesID"
+                    android:layout_height="wrap_content" />
+
+                   <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Never"
+                    android:id="@+id/q3RadioneverID"
+                    android:layout_height="wrap_content" />
+
+                     
+                      
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/textcolorcplor"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="4. The hot drinks are just the right temperature."
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:id="@+id/radiogroup4"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Always"
+                    android:id="@+id/q4RadioalwaysID"
+                    android:layout_height="wrap_content" />
+                    
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Usually"
+                    android:id="@+id/q4RadiousualyID"
+                    android:layout_height="wrap_content" />
+            
+                 <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Some Times"
+                    android:id="@+id/q4RadiosometimesID"
+                    android:layout_height="wrap_content" />
+
+                   <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Never"
+                    android:id="@+id/q4RadioneverID"
+                    android:layout_height="wrap_content" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolorcplor"
+                    android:layout_margin="5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="5. The hot food are just the right temperature."
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:id="@+id/radiogroup5"
+                        android:layout_height="wrap_content">
+                          <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Always"
+                    android:id="@+id/q5RadioalwaysID"
+                    android:layout_height="wrap_content" />
+                    
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Usually"
+                    android:id="@+id/q5RadiousualyID"
+                    android:layout_height="wrap_content" />
+            
+                 <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Some Times"
+                    android:id="@+id/q5RadiosometimesID"
+                    android:layout_height="wrap_content" />
+
+                   <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Never"
+                    android:id="@+id/q5RadioneverID"
+                    android:layout_height="wrap_content" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolorcplor"
+                    android:layout_margin="5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="6. I recived enough food."
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:id="@+id/radiogroup6"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Always"
+                    android:id="@+id/q6RadioalwaysID"
+                    android:layout_height="wrap_content" />
+                    
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Usually"
+                    android:id="@+id/q6RadiousualyID"
+                    android:layout_height="wrap_content" />
+            
+                 <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Some Times"
+                    android:id="@+id/q6RadiosometimesID"
+                    android:layout_height="wrap_content" />
+
+                   <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Never"
+                    android:id="@+id/q6RadioneverID"
+                    android:layout_height="wrap_content" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolorcplor"
+                    android:layout_margin="5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="7. Overall, how would you rate your satisfaction with the food service ?"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:id="@+id/radiogroup7"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Excellent"
+                            android:id="@+id/excellentID"
+                            android:layout_height="wrap_content" />
+                        <RadioButton
+                           android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Very Good"
+                            android:id="@+id/verygoodID"
+                            android:layout_height="wrap_content" />
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Good"
+                            android:id="@+id/goodID"
+                            android:layout_height="wrap_content" />
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Average"
+                            android:id="@+id/averageID"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Poor"
+                            android:id="@+id/poorID"
+                            android:layout_height="wrap_content"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+</LinearLayout>
+             </LinearLayout>
+        </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/extracommentID"
+        android:lines="5"
+        android:layout_margin="5dp"
+        android:gravity="top"
+        android:hint="any thing extra you like to share...."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/buttonsubmitFeedbackID"
+            android:background="@color/buttoncolor"
+            android:textColor="#fff"
+            android:textStyle="normal"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_weight="0.5"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancle"
+            android:id="@+id/button2"
+            android:layout_weight="0.5"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@color/buttoncolor"
+            android:textColor="#fff"
+            android:textStyle="normal"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+    </LinearLayout>
+
+
+    </ScrollView>
